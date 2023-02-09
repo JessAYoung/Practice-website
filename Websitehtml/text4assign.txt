@@ -1,9 +1,0 @@
-Sales Report
-Item ID		Item Name	Sales diff	Message
-
-W111		Widget		-5		You're Fired
-D222		DoDad		4		Bonus $$
-T333		Thingy		0		Be better
-s444		Something	1		Bonus $	
-
-Processed 4 records
