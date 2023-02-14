@@ -1,69 +1,78 @@
+/* the styles for all the elements within the html */
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  header nav ul {
-    display: inline-block;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color:#ffffff
+}
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header nav a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section h2 {
-    margin-top: 0;
-  }
-  /*nav element*/
-  #nav_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-  }
-  #nav_menu ul li {
-    float: left;
-  }
-  #nav_menu ul li a {
-      display: block;
-      width: 160px;
-      text-align: center;
-      padding: 1em 0;
-      background-color: slategray;
-      color: black;
-  }
-  #nav_menu ul ul {
-      display: none;
-      position: absolute;
-      top: 100%;
-  }
-  #nav_menu ul ul li {
-    float: none;
-  }
-  #nav_menu ul li:hover > ul {
+}
+
+/* the styles for the header */
+header h1 {
+	text-align: center;
+    color: #877750;
+}
+/* nave menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
     display: block;
-  }
-  #nav_menu > ul::after {
-      content: "";
-      clear: both;
-      display: block;
-  }
-  
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    background-color: slategray;
+    color: black;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* the styles for project content*/
+main h2 {
+	text-align: center;
+    color: #877750;
+}
+.project{
+    text-indent: 30px;
+}
+main h1 {
+	font-size: 150%;
+}
+.sith{
+    background-color:#460c0b
+}
+.quilt{
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+}
+.marvel{
+    background-color:#ED1D24;
+}
+.mad{
+    background-color:#432172
+}
+.letterman{
+    background-color:#264561
+}
+
+
+

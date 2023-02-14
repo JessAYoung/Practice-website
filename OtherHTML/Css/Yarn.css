@@ -1,69 +1,78 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  header nav ul {
-    display: inline-block;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color:#ffffff;
+}
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header nav a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section h2 {
-    margin-top: 0;
-  }
-  /*nav element*/
-  #nav_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-  }
-  #nav_menu ul li {
-    float: left;
-  }
-  #nav_menu ul li a {
-      display: block;
-      width: 160px;
-      text-align: center;
-      padding: 1em 0;
-      background-color: slategray;
-      color: black;
-  }
-  #nav_menu ul ul {
-      display: none;
-      position: absolute;
-      top: 100%;
-  }
-  #nav_menu ul ul li {
-    float: none;
-  }
-  #nav_menu ul li:hover > ul {
+}
+
+/* the styles for the header */
+header h1 {
+	text-align: center;
+    color: #877750;
+}
+/* Styles for nav menu*/
+/* nave menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
     display: block;
-  }
-  #nav_menu > ul::after {
-      content: "";
-      clear: both;
-      display: block;
-  }
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    background-color: slategray;
+    color: black;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*styles for accessories*/
+.other{
+    border:#decbb3;
+	border-style: dashed;
+	border-radius: .5em;
+    padding: .5em;
+}
+.Scissors{
+    color: #807f7b;
+}
+.elegoo{
+    color: #17d2fd;
+    text-shadow: 4px 4px 4px #072e7d;
+}
+/*link styling*/
+a:hover{
+    font-style: italic;
+    color:#6460fa;
+}
+a:visited{
+    color:#17d2fd;
+}
+/* the styles for the footer */
+footer{
+    text-align:center;
+    
+}
   
