@@ -1,28 +1,32 @@
 body {
-	font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 100%;
-    color:#ffffff;
+    color: #ffffff;
 }
+
 ul {
     list-style-type: none;
 }
 
 /* the styles for the header */
 header h1 {
-	text-align: center;
+    text-align: center;
     color: #877750;
 }
+
 /* Styles for nav menu*/
 /* nave menu */
 #nav_menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
+
 #nav_menu ul li {
-	float: left;
+    float: left;
 }
+
 #nav_menu ul li a {
     display: block;
     width: 160px;
@@ -31,48 +35,56 @@ header h1 {
     background-color: slategray;
     color: black;
 }
+
 #nav_menu ul ul {
     display: none;
     position: absolute;
     top: 100%;
 }
+
 #nav_menu ul ul li {
-	float: none;
+    float: none;
 }
-#nav_menu ul li:hover > ul {
-	display: block;
+
+#nav_menu ul li:hover>ul {
+    display: block;
 }
-#nav_menu > ul::after {
+
+#nav_menu>ul::after {
     content: "";
     clear: both;
     display: block;
 }
 
 /*styles for accessories*/
-.other{
-    border:#decbb3;
-	border-style: dashed;
-	border-radius: .5em;
+.other {
+    border: #decbb3;
+    border-style: dashed;
+    border-radius: .5em;
     padding: .5em;
 }
-.Scissors{
+
+.Scissors {
     color: #807f7b;
 }
-.elegoo{
+
+.elegoo {
     color: #17d2fd;
     text-shadow: 4px 4px 4px #072e7d;
 }
+
 /*link styling*/
-a:hover{
+a:hover {
     font-style: italic;
-    color:#6460fa;
+    color: #6460fa;
 }
-a:visited{
-    color:#17d2fd;
+
+a:visited {
+    color: #17d2fd;
 }
+
 /* the styles for the footer */
-footer{
-    text-align:center;
-    
+footer {
+    text-align: center;
+
 }
-  

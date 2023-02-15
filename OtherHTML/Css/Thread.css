@@ -1,13 +1,15 @@
 /*nav element*/
 #nav_menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
+
 #nav_menu ul li {
-  float: left;
+    float: left;
 }
+
 #nav_menu ul li a {
     display: block;
     width: 160px;
@@ -16,47 +18,56 @@
     background-color: slategray;
     color: black;
 }
+
 #nav_menu ul ul {
     display: none;
     position: absolute;
     top: 100%;
 }
+
 #nav_menu ul ul li {
-  float: none;
+    float: none;
 }
-#nav_menu ul li:hover > ul {
-  display: block;
+
+#nav_menu ul li:hover>ul {
+    display: block;
 }
-#nav_menu > ul::after {
+
+#nav_menu>ul::after {
     content: "";
     clear: both;
     display: block;
 }
+
 body {
-	font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 100%;
-    color:#ffffff
+    color: #ffffff
 }
+
 ul {
     list-style-type: none;
 }
 
 /* the styles for the header */
 header h1 {
-	text-align: center;
+    text-align: center;
     color: #877750;
 }
 
 /*styles for sewing machines*/
-.antique{
-    color:#bf7f44
+.antique {
+    color: #bf7f44
 }
-.kid{
-    color:#c23848
+
+.kid {
+    color: #c23848
 }
-.brother{
-    color:#813e64
+
+.brother {
+    color: #813e64
 }
-.babylock{
-    color:#d9a958
+
+.babylock {
+    color: #d9a958
 }
