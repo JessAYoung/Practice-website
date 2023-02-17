@@ -39,6 +39,15 @@
     display: block;
 }
 
+#nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slategray;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*end of Nav menu css*/
+/*start of main element css */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 100%;
