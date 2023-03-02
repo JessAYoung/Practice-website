@@ -88,3 +88,7 @@ header h1 {
 .babylock {
     color: #d9a958
 }
+a:hover {
+    font-style: italic;
+    color: goldenrod;
+}

@@ -82,3 +82,7 @@ nav ul ul ul {
 	top: 0;
 }
 /*end of style for menu*/
+a:hover {
+  font-style: italic;
+  color: goldenrod;
+}
