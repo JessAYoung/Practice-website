@@ -58,9 +58,9 @@ nav ul ul ul {
 /*end of Nav menu css*/
 /*start of main element css */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 100%;
-    color: #ffffff
+    color: #ffffff;
 }
 ul {
     list-style-type: none;

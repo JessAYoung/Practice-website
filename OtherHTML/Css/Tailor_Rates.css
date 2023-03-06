@@ -1,7 +1,7 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 100%;
-  color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 100%;
+    color: #ffffff;
 }
 
 ul {
@@ -24,6 +24,10 @@ ul {
   padding: 1em;
 }
 
+header h1 {
+    text-align: center;
+    color: #877750;
+}
 /* nave menu */
 nav {
 	background-color: #333;
@@ -86,3 +90,17 @@ a:hover {
   font-style: italic;
   color: goldenrod;
 }
+/*styling for table*/
+table {
+	width: 100%;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid #ddd;
+  }
+  
+  th {
+	background-color: slategray;
+  }
