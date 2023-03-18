@@ -22,7 +22,7 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav ul li:hover > a {
+nav ul li:hover>a {
 	background-color: #555;
 }
 
@@ -36,7 +36,7 @@ nav ul ul li {
 	width: 100%;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
 	display: flex;
 	flex-direction: column;
 }
@@ -55,40 +55,44 @@ nav ul ul ul {
 	left: 100%;
 	top: 0;
 }
-/*end of Nav menu css*/
-/*start of main element css */
-body {
-    font-family: 'Playfair Display', serif;
-    font-size: 100%;
-    color: #ffffff;
-}
-ul {
-    list-style-type: none;
+
+a:hover {
+	font-style: italic;
+	color: goldenrod;
 }
 
-/* the styles for the header */
+/*end of Nav menu css*/
+
+/*start of main element css */
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 100%;
+	color: #ffffff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* the styles for the headers */
 header h1 {
-    text-align: center;
-    color: #877750;
+	text-align: center;
+	color: #877750;
 }
 
 /*styles for sewing machines*/
 .antique {
-    color: #bf7f44
+	color: #bf7f44
 }
 
 .kid {
-    color: #c23848
+	color: #c23848
 }
 
 .brother {
-    color: #813e64
+	color: #813e64
 }
 
 .babylock {
-    color: #d9a958
-}
-a:hover {
-    font-style: italic;
-    color: goldenrod;
+	color: #d9a958
 }

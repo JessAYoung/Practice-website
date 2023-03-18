@@ -1,20 +1,19 @@
 body {
-    font-family: 'Playfair Display', serif;
-    font-size: 100%;
-    color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 100%;
+	color: #ffffff;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 /* the styles for the header */
 header h1 {
-    text-align: center;
-    color: #877750;
+	text-align: center;
+	color: #877750;
 }
 
-/* Styles for nav menu*/
 /* nave menu */
 nav {
 	background-color: #333;
@@ -39,7 +38,7 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav ul li:hover > a {
+nav ul li:hover>a {
 	background-color: #555;
 }
 
@@ -53,7 +52,7 @@ nav ul ul li {
 	width: 100%;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
 	display: flex;
 	flex-direction: column;
 }
@@ -72,31 +71,30 @@ nav ul ul ul {
 	left: 100%;
 	top: 0;
 }
+
+a:hover {
+	font-style: italic;
+	color: goldenrod;
+}
+
 /*styles for accessories*/
-.other {
-    border: #decbb3;
-    border-style: dashed;
-    border-radius: .5em;
-    padding: .5em;
+
+.ul {
+	padding: 0;
 }
 
 .Scissors {
-    color: #807f7b;
+	color: #7F8C8D;
+	text-shadow: 1px 1px 1px #c2b6b6;
 }
 
 .elegoo {
-    color: #17d2fd;
-    text-shadow: 4px 4px 4px #072e7d;
-}
-
-/*link styling*/
-a:hover {
-    font-style: italic;
-    color: goldenrod;
+	color: #17d2fd;
+	text-shadow: 4px 4px 4px #072e7d;
 }
 
 /* the styles for the footer */
 footer {
-    text-align: center;
+	text-align: center;
 
 }

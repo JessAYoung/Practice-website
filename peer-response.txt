@@ -1,0 +1,8 @@
+On the home screen, I like your picture and how it is centered on the page. 
+The navigation menu seems to be unfinished as it is just listed centered down the middle under the home index. (Fixed)
+The first four (Home, Contact information, Animal page, and room tour) are all linked back to the home page, according to Ch 16, there shouldn't be links to the home page on the home page.(fixed)
+The Previous projects page shows the navigation menu at the top and across which is nice. 
+I like the different colors behind the information about the different projects, makes it interesting and easy to read. 
+You could add something to indicate what page this is, such as changing the color of the page name in the navigation menu, as well as doing this for the other pages. (Added titles to each page fixed)
+Each page is very different in how they appear, A header that is the same on each page to tie them all together might help tie them all together. (fixed)
+I think you are well on your way to a great website!!

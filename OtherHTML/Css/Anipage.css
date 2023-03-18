@@ -1,21 +1,27 @@
+/*NOTE THAT THIS CSS LINKS TO TWO PAGES ANIMAL PAGE AND CONTACT INFO*/
 /* the styles for all the elements within the html */
 body {
-    font-family: 'Playfair Display', serif;
-    font-size: 100%;
-    color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 100%;
+	color: #ffffff;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
+}
+
+/*Css for fit on Page*/
+.fit {
+	padding: 0;
 }
 
 /* the styles for the header */
 header h1 {
-    text-align: center;
-    color: #877750;
+	text-align: center;
+	color: #877750;
 }
 
-/* nave menu */
+/* nave menu and styling*/
 nav {
 	background-color: #333;
 }
@@ -72,28 +78,31 @@ nav ul ul ul {
 	left: 100%;
 	top: 0;
 }
-/*end of style for menu*/
-/* the styles for project content*/
-main h2 {
-    text-align: center;
-    color: #877750;
-}
-.kenai{
-
-}
-.lucy{
-
-}
-.Annie{
-    text-align: center;
-}
-.Animals{
-    text-align: center;
-}
 a:hover {
     font-style: italic;
     color: goldenrod;
 }
-.fa-solid fa-paw{
-	color:white
+
+/*end of style for nav menu*/
+
+/* the styles for animal list*/
+main h2 {
+	text-align: center;
+	color: #877750;
+}
+
+.kenai h3 {
+	color: #845f42;
+}
+
+.lucy h3 {
+	color: #895d38;
+}
+
+.Annie h3 {
+	color: #c2a891;
+}
+
+.Animals {
+	text-align: center;
 }

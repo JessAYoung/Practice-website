@@ -72,6 +72,11 @@ nav ul ul ul {
 	left: 100%;
 	top: 0;
 }
+a:hover {
+    font-style: italic;
+    color: goldenrod;
+}
+
 /*end of style for menu*/
 /* the styles for project content*/
 main h2 {
@@ -105,8 +110,4 @@ main h1 {
 
 .letterman {
     background-color: #264561;
-}
-a:hover {
-    font-style: italic;
-    color: goldenrod;
 }

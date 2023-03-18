@@ -1,33 +1,34 @@
 body {
-    font-family: 'Playfair Display', serif;
-    font-size: 100%;
-    color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 100%;
+	color: #ffffff;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 /* Styles for Columns to be edited*/
 .container {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .left-column {
-  width: 50%;
-  padding: 1em;
+	width: 50%;
+	padding: 1em;
 }
 
 .right-column {
-  width: 50%;
-  padding: 1em;
+	width: 50%;
+	padding: 1em;
 }
 
 header h1 {
-    text-align: center;
-    color: #877750;
+	text-align: center;
+	color: #877750;
 }
+
 /* nave menu */
 nav {
 	background-color: #333;
@@ -52,7 +53,7 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav ul li:hover > a {
+nav ul li:hover>a {
 	background-color: #555;
 }
 
@@ -66,7 +67,7 @@ nav ul ul li {
 	width: 100%;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
 	display: flex;
 	flex-direction: column;
 }
@@ -85,22 +86,29 @@ nav ul ul ul {
 	left: 100%;
 	top: 0;
 }
+
 /*end of style for menu*/
 a:hover {
-  font-style: italic;
-  color: goldenrod;
+	font-style: italic;
+	color: goldenrod;
 }
+
 /*styling for table*/
 table {
 	width: 100%;
-  }
-  
-  th, td {
+}
+
+th,
+td {
 	text-align: left;
 	padding: 8px;
 	border: 1px solid #ddd;
-  }
-  
-  th {
+}
+
+th {
 	background-color: slategray;
-  }
+}
+
+h3 {
+	color: firebrick;
+}
